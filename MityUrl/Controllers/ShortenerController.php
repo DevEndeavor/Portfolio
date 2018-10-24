@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Click;
 use Illuminate\Support\Facades\Auth;
 use App\Url;
 use App\Link;
