@@ -194,7 +194,7 @@ function validateYoutubeListID($id) {
 
 function youtubeChannelApiProcessor($listType, $id) {        
 
-    $API_KEY = "AIzaSyBtf-KXJ-lff43O1yg1ubReQTuHw8EKeVQ";
+    $API_KEY = "xxxxxxxxxxxxxxxxxx";
     $channelId = "";
     $forUsername = "";
 
@@ -239,7 +239,7 @@ function youtubeChannelApiProcessor($listType, $id) {
 
 function youtubePlaylistApiProcessor($id) {        
 
-    $API_KEY = "AIzaSyBtf-KXJ-lff43O1yg1ubReQTuHw8EKeVQ";
+    $API_KEY = "xxxxxxxxxxxxxxxxxx";
 
     $json_string = "https://www.googleapis.com/youtube/v3/playlists?part=snippet&key=" . $API_KEY . "&id=" . $id;
 
@@ -276,7 +276,7 @@ function youtubePlaylistApiProcessor($id) {
 
 function youtubeVideoApiProcessor($id, $pages=1) {        
 
-    $API_KEY = "AIzaSyBtf-KXJ-lff43O1yg1ubReQTuHw8EKeVQ";
+    $API_KEY = "xxxxxxxxxxxxxxxxxx";
     $itemsArray = array();
     $nextPageToken = "";
 
