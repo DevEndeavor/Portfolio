@@ -597,7 +597,7 @@ function safeBrowsingScanner($urlsToScan) {
         }";
 
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "https://safebrowsing.googleapis.com/v4/threatMatches:find?key=AIzaSyBiznD6ml8iFNc4Fsc7qFpUNN0LLBe8BC4");
+        curl_setopt($ch, CURLOPT_URL, "https://safebrowsing.googleapis.com/v4/threatMatches:find?key=xxxxxxxxxxxxxxxxxx");
         curl_setopt($ch, CURLOPT_HTTPHEADER, array("Content-Type: application/json"));
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
