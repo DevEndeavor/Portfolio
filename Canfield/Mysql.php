@@ -1,6 +1,5 @@
 <?php
 
-
 class Mysql {
 
     static private $connection;
