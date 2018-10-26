@@ -2,7 +2,6 @@
     require_once("UserController.php");
     $userController = new UserController();
     $users = $userController->getAllUsers();
-    var_dump($users);
 ?>
 
 <html>
