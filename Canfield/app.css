@@ -1,0 +1,47 @@
+html {
+    background: #eee;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: #fefefe;
+    border-right: 1px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+th {
+    padding-bottom: 20px;
+}
+
+td {
+    padding: 6px;
+}
+
+.btn {
+    width: 32px;
+    height: 32px;
+    font-size: 22px;
+    background: #eee;
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding: 0 1px 1px 0;
+}
+
+.btn:hover {
+    background: #ddd;;
+}
+
+.btn:active {
+    background: #bbb;
+}
